@@ -44,6 +44,7 @@ export default class App extends Component {
     this.setState({selectedPlace: null});
   }
 
+  // sets a state property, which opens modal
   selectPlaceHandler = key => {
     this.setState(prevState => {
       return {

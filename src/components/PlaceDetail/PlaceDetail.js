@@ -11,6 +11,7 @@ const placeDetail = props => {
             </View>
         );
     }
+    // onRequestClose is required for Android, and do same action as close button
     return (
     <Modal 
         visible={props.selectedPlace !== null} 
